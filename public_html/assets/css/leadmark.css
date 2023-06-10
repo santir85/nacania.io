@@ -4469,6 +4469,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
+
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
@@ -11746,4 +11747,22 @@ textarea.form-control {
   left: 50%;
   opacity: 1;
   visibility: visible;
+}
+
+
+
+.close {
+  font-size: 1.5rem;
+}
+
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
+.col-12 img:hover {
+  opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
